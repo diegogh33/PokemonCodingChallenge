@@ -15,6 +15,8 @@ Automate and validate endpoints from the [PokeAPI](https://pokeapi.co), includin
 - Retrieving information about a specific Pokémon
 - Accessing ability data for a given Pokémon
 
+Website info: https://pokeapi.co/docs/v2 
+
 ## ⚙️ Setup Instructions
 
 1. Clone the repository.
