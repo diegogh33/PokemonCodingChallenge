@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug Maven Tests",
+            "request": "launch",
+            "mainClass": "org.apache.maven.cli.MavenLauncher",
+            "args": [
+                "test",
+                "-Dmaven.surefire.debug=-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005"
+            ],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
